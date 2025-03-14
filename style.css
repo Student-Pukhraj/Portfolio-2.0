@@ -532,9 +532,21 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 391px) and (max-width: 768px) {
+  .project-image img {
+    height: 210px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-height: 844px) {
   .project-image img {
     height: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .project-image img {
+    height: 260px;
   }
 }
 
